@@ -1,0 +1,35 @@
+======================= Pytest =======================
+
+-v → verbose
+-s → show prints/logging in console
+-k → run by name pattern  (pytest -k "create or delete")
+-m → run by marker
+--maxfail=1 → stop after first failure
+-x → stop after first failure
+--tb=short → shorter traceback
+--html=report.html → generate HTML report if plugin installed
+
+
+-----------------------------------
+@pytest.mark.smoke
+def test_create_task():
+    ...
+
+pytest -m smoke
+-----------------------------------
+
+
+
+
+----- Run a specific test function -----
+pytest tests/api/test_create_task.py::test_create_task
+
+
+----- Run tests in a specific class -----
+pytest tests/api/test_create_task.py::TestCreateTask
+
+
+
+
+
+
