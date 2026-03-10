@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1a86b96-e015-42fb-b65a-2c3c3ae4c17c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Todo_api_testing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/payloads/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/payloads/payloads_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/api_fixtures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hints.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/test_create_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/test_delete_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/test_get_list_tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/test_get_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api/test_update_task.py" afterDir="false" />
+    <list default="true" id="d1a86b96-e015-42fb-b65a-2c3c3ae4c17c" name="Changes" comment="tests for todo api">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/payloads/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dofken96"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dofken96/todo_api_testing.git",
+    "accountId": "af399eb4-c30f-4743-8da3-79a7ec99cf8c"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -84,6 +81,15 @@
       <option name="presentableId" value="Default" />
       <updated>1773043944576</updated>
     </task>
+    <task id="LOCAL-00001" summary="tests for todo api">
+      <option name="closed" value="true" />
+      <created>1773051992757</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773051992757</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +102,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tests for todo api" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests for todo api" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
