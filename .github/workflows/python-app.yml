@@ -47,10 +47,15 @@ jobs:
       run: |
         pytest --alluredir=allure-results
 
+    - name: Show Allure results files
+      if: always()
+      run: |
+        ls -R allure-results
+
     - name: Generate Allure report
       if: always()
       run: |
-        allure generate allure-report
+        npx allure generate allure-results --output allure-report
 
     - name: Upload Allure raw results
       if: always()
