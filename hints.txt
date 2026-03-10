@@ -31,5 +31,54 @@ pytest tests/api/test_create_task.py::TestCreateTask
 
 
 
+=========================== GitHub Actions ===========================
+
+actions/checkout
+Gets your repository code into the runner so the workflow can access your files. By default it fetches the commit that triggered the run.
+
+actions/setup-python
+Sets up a chosen Python or PyPy version, adds it to PATH, and can also cache dependencies for pip, pipenv, and poetry.
+
+actions/cache
+Caches dependencies or build outputs to make workflows faster on later runs. This is often used for package caches or other reusable build/test data.
+
+actions/upload-artifact
+Uploads files produced during the workflow, like test reports, logs, screenshots, coverage results, or packaged builds, so you can inspect them after the run.
+
+actions/download-artifact
+Downloads artifacts that were uploaded earlier in the same workflow, which is useful when one job produces files and another job needs them.
+
+For Docker-based projects, these are also common:
+
+docker/login-action
+Logs in to a container registry so the workflow can push or pull images. GitHub’s docs use it in Docker publishing examples.
+
+docker/build-push-action
+Builds Docker images and can push them to registries such as Docker Hub or GitHub Container Registry.
+
+
+
+
+---------------------------------------
+* * * * *
+| | | | |
+| | | | day of week
+| | | month
+| | day of month
+| hour
+minute
+
+
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  schedule:
+    - cron: '0 6 * * *'   # every day at 06:00 UTC
+
+
+
 
 

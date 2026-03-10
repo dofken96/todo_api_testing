@@ -11,6 +11,7 @@ def new_task_payload() -> dict:
         'is_done': False
     }
 
+
 def update_task_payload(task_id) -> dict:
     content = f"updated_content_{uuid.uuid4().hex}"
     is_done = True
